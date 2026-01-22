@@ -29,7 +29,8 @@ The Golub leukemia dataset is a classic benchmark in bioinformatics, containing 
 - **NumPy**: Numerical computations and array operations
 - **Pandas**: Data manipulation and analysis
 - **Matplotlib**: Data visualization and plotting
-- **Seaborn**: Statistical data visualization
+- **Seaborn**: Statistical data visualization (heatmap)
+- **Scipy** : scientific computing (hierarchical clustering)
 
 ## Installation
 
