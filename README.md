@@ -4,7 +4,9 @@ A comprehensive analysis of the Golub leukemia gene expression dataset using Pyt
 
 ## Overview
 
-This project analyzes high-dimensional gene expression data from leukemia patients to identify patterns and relationships between different cancer types. Using Principal Component Analysis (PCA) with Singular Value Decomposition (SVD), the analysis reduces the complexity of thousands of gene expressions into interpretable components.
+This project analyzes high-dimensional gene expression data from leukemia patients to identify patterns and relationships between different cancer types. Using Principal Component Analysis (PCA) with Singular Value Decomposition (SVD), the analysis reduces the complexity of thousands of gene expressions into a small number of interpretable components that capture the major sources of variation.
+
+The reduced-dimensional representation is then used for unsupervised clustering, including K-Means clustering to group samples based on global expression similarity and hierarchical clustering to visualize relationships among samples through dendrograms. These clustering approaches help reveal natural groupings of cancer samples and highlight similarities and differences in their underlying gene expression profiles.
 
 ## Dataset
 
@@ -22,6 +24,7 @@ The Golub leukemia dataset is a classic benchmark in bioinformatics, containing 
   - Visualization of principal components
   - Pattern identification in gene expression space
 - **Visualization**: Clear, publication-quality plots using matplotlib and seaborn
+- **Clustering** : Kmeans clustering and Hierarchical clustering(dendrogram) using scikit-learn
 
 ## Technologies Used
 
@@ -31,6 +34,7 @@ The Golub leukemia dataset is a classic benchmark in bioinformatics, containing 
 - **Matplotlib**: Data visualization and plotting
 - **Seaborn**: Statistical data visualization (heatmap)
 - **Scipy** : scientific computing (hierarchical clustering)
+- **scikit-learn** : clustering 
 
 ## Installation
 
